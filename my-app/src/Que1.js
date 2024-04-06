@@ -1,9 +1,12 @@
-function Person(props) {
+export function Person(props) {
     return (
         <>
+        {/* Qustion : 1  */}
         <p>
-            {props.name}
+            Name : {props.name} and Age: {props.age}
         </p>
+        {/* Question : 2 */}
+
         
         </>
     )
